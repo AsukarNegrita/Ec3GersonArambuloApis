@@ -39,6 +39,6 @@ class HomeFragment : Fragment() {
             adapter.skins=it
             adapter.notifyDataSetChanged()
         }
-        viewModel.getskin()
+        viewModel.getSkinFromService()
     }
 }
